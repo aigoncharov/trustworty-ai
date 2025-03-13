@@ -1,0 +1,32 @@
+[project]
+name = "sktech-trustworty-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "circuitsvis",
+    "eindex-callum>=0.1.2",
+    "einops>=0.7.0",
+    "frozendict>=2.4.6",
+    "ipython>=9.0.2",
+    "jaxtyping>=0.2.38",
+    "numpy>=1.26.4",
+    "plotly>=5.24.1",
+    "rich>=13.9.4",
+    "sae-lens>=5.6.0",
+    "sae-vis>=0.3.6",
+    "setuptools>=76.0.0",
+    "tabulate>=0.9.0",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "transformer-lens==2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
+
+[tool.uv.sources]
+circuitsvis = { git = "https://github.com/callummcdougall/CircuitsVis.git", subdirectory = "python" }
