@@ -1,1 +1,1 @@
-# sktech-trustworty-ai
+# trustworty-ai
